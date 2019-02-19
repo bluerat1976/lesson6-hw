@@ -4,53 +4,47 @@
 <head>
     <meta charset='UTF-8' />
     <meta name="description" content="SkillUp homework 6">
-    <meta name="keywords"content="html form, html meta tag, css">
-    <meta name="autor"content="Tatiana Osoblivaia">
-    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="html form, html meta tag, css">
+    <meta name="autor" content="Tatiana Osoblivaia">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact form</title>
     <link rel='stylesheet' href='form-style.css' />
 </head>
 
 <body>
-    <form action="./action-page.php"target="_blank"metod="POST">
+    <form action="./action-page.php" target="_blank" metod="POST">
         <label for="name">Your Name (required)</label>
-        <br>
-        <input type="text"id="name"name="name"size="30"required>
-        <br><br>
+        <input type="text" id="name" name="name" size="30" required>
 
         <label for="lastname">Your Lastname (required)</label>
-        <br>
-        <input type="text"id="lastname"name="lastname"size="30"required>
-        <br><br>
+        <input type="text" id="lastname" name="lastname" size="30" required>
 
-        <label for="what">What is it about?</label>
-        <br>
-        <input type="checkbox"id="what"name="what1"value="hello">Say Hello
-        <br>
-        <input type="checkbox"id="what"name="what2"value="complain">Complain
-        <br>
-        <input type="checkbox"id="what"name="what3"value="joke">Share a joke
-        <br><br>
+        <fieldset>
+            <legend> What is it about?</legend>
+            <div>
+                <input type="checkbox" id="what" name="what1" value="hello">Say Hello
+            </div>
+            <div>
+                <input type="checkbox" id="what" name="what2" value="complain">Complain
+            </div>         
+            <div>
+                <input type="checkbox" id="what" name="what3" value="joke">Share a joke
+            </div>           
+        </fieldset>
 
         <label for="select">Please, select an activitiy</label>
-        <br>
         <select name="vacations" id="select">
             <option value="empty"></option>
             <option value="seashore">Sea shore</option>
             <option value="excursion">Excursion</option>
             <option value="Mountains">Mountains</option>
         </select>
-        <br><br>
+       
         <label for="comments">You message</label>
-        <br>
-        <textarea name="comments" id="comments" cols="45" rows="10">
-        </textarea>
+        <textarea name="comments" id="comments" cols="45" rows="10"></textarea>
 
-        <br><br>
-        <input type="reset"value="RESET">
-        <input type="submit"value="SEND">
-
-
+        <input type="reset" value="RESET">
+        <input type="submit" value="SEND">
     </form>
 </body>
 
