@@ -22,22 +22,32 @@
         <fieldset>
             <legend> What is it about?</legend>
             <div>
-                <input type="checkbox" id="what" name="what1" value="hello">Say Hello
+                <input type="checkbox" id="what1" name="what1" value="hello">
+                <label for="what1">Say Hello</label>
             </div>
             <div>
-                <input type="checkbox" id="what" name="what2" value="complain">Complain
+                <input type="checkbox" id="what2" name="what2" value="complain">
+                <label for="what2">Complain</label> 
             </div>         
             <div>
-                <input type="checkbox" id="what" name="what3" value="joke">Share a joke
+                <input type="checkbox" id="what3" name="what3" value="joke">
+                <label for="what3">Share a joke</label>
             </div>           
         </fieldset>
 
         <label for="select">Please, select an activitiy</label>
         <select name="vacations" id="select">
-            <option value="empty"></option>
-            <option value="seashore">Sea shore</option>
-            <option value="excursion">Excursion</option>
-            <option value="Mountains">Mountains</option>
+            <optgroup lebel="resorts">
+                <option value="empty"></option>
+                <option value="seashore">Sea shore</option>
+                <option value="excursion">Excursion</option>
+                <option value="Mountains">Mountains</option>
+            </optgroup>
+            <optgroup lebel="excursions">
+                    <option value="city">City</option>
+                    <option value="river">River</option>
+                    <option value="vilage">Vilage</option>
+            </optgroup>
         </select>
        
         <label for="comments">You message</label>
