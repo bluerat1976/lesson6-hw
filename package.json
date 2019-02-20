@@ -1,0 +1,23 @@
+{
+  "name": "lesson6-hw",
+  "version": "1.0.0",
+  "description": "Contact form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluerat1976/lesson6-hw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluerat1976/lesson6-hw/issues"
+  },
+  "homepage": "https://github.com/bluerat1976/lesson6-hw#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
